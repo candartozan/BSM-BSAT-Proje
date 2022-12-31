@@ -1,0 +1,9 @@
+[Unit]
+Destciption=Odev Servisi
+
+[Service]
+Type=simple
+ExecStart=/usr/local/sbin/tara.sh
+
+[Install]
+WantedBy=multi-user.target
